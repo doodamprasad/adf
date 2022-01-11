@@ -1,0 +1,19 @@
+{
+	"name": "LS_Res200",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://wiprotechnologiesltd-2a-dev-ed.my.salesforce.com/services/data/v53.0/sobjects/Account",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous",
+			"authHeaders": {
+				"Authorization": {
+					"type": "SecureString",
+					"value": "**********"
+				}
+			}
+		}
+	}
+}
